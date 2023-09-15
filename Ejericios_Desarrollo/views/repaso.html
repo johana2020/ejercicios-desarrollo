@@ -1,0 +1,162 @@
+
+
+<!DOCTYPE html>
+<!-- saved from url=(0087)https://e-aulas.urosario.edu.co/pluginfile.php/2981292/mod_resource/content/0/form.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form name="datosBasicos" action="https://e-aulas.urosario.edu.co/pluginfile.php/2981292/mod_resource/content/inicio.html" method="">
+        <h1><img src="../assets/img/icono.png" width="70px">Datos Básicos</h1>
+        <label for="perfil">Describa su perfil</label>
+        <textarea id="perfil" rows="5" cols="100" name="perfil"></textarea><br><br>
+        <label for="tipoI">Tipo de identificacion:</label>
+        <select id="tipoI" name="tipoI">
+            <option value="0" selected="">Seleccione un Tipo de Documento</option>
+            <option value="NUIP">Numero de identificacion (NUIP)</option>
+            <option value="Tarjeta de Identidad">Tarjeta de Identidad (TI)</option>
+            <option value="Cedula de Ciudadania">Cédula de Ciudadania</option>
+            <option value="Cedula de Extranjeria">Cedula de Extranjeria</option>
+        </select><br><br>
+
+        <label for="ciudad">¿En que ciudad vives?</label>
+        <select name="ciudad">
+        <option selected="" value="0"> Elige una ciudad</option>
+            <optgroup label="Cundinamarca">
+            <option value="1">Bogota</option>
+            <option value="2">Chia</option>
+            </optgroup>
+            <optgroup label="Antioquia">
+            <option value="4">Medellin</option>
+            <option value="5">Envigado</option>
+            </optgroup>
+            <optgroup label="Santander">
+                <option value="4">Bucaramanga</option>
+                <option value="5">San Gil</option>
+                </optgroup>
+        </select><br><br>
+
+        <label for="numI">Numero de identificacion:</label>
+        <input id="numI"><br><br>
+        <label for="apellidos">Apellidos:</label>
+        <input id="apellidos" type="text" name="apellidos"><br><br>
+        <label for="nombre">Nombres:</label>
+        <input id="nombre" type="text" name="nombre"><br><br>
+        <label for="genero">Genero</label>
+        <input id="genero" type="radio" name="genero">Femenino
+        <input id="genero" type="radio" name="genero" checked="">Masculino<br><br>
+        <label for="ecivil">Estado Civil:</label>
+        <input type="radio" name="ecivil" id="ecivil">Soltero
+        <input type="radio" name="ecivil" id="ecivil">Casado
+        <input type="radio" name="ecivil" id="ecivil">Union libre
+        <input type="radio" name="ecivil" id="ecivil">Viudo(a)<br><br>
+
+        <label for="telefono">Numero telefonico de contacto:</label>
+        <input id="telefono"><br><br>
+        <label for="direccion">Direccion de tu residencia:</label>
+        <input id="direccion" type="text" name="direccion"><br><br>
+        <label for="correo">Correo electronico de contacto</label>
+        <input id="correo" placeholder="usuario@dominio.com"> <br><br>
+        <label for="pass">Contrasena</label>
+        <input id="pass" type="password" name="pass"><br><br>
+        <label>¿Que te gusta hacer en tu tiempo libre?</label>
+        <input type="checkbox" id="series" name="series">
+        <label for="series">Ver Series</label>
+        <input type="checkbox" id="jugar" name="jugar">
+        <label for="jugar">Jugar Videojuegos</label>
+        <input type="checkbox" id="deportes" name="deportes">
+        <label for="deportes">Hacer Deporte</label><br><br>
+        <label for="archivo"> Sube aqui­ tu archivo</label>
+        <input type="file" name="archivo">
+        <label for="enviar"> Enviar </label><br>
+        <br><input type="submit" value="Enviar">
+        <label for="Restablecer"> </label> <input type="reset" value="Restablecer">
+        
+        
+    </form>
+
+    <table border="8"> <caption><strong> <ul><strong><em>Horario Johana</em></strong></ul> </strong></caption>
+        <tr>
+            <th><em>Hora</em></th>
+            <th><em>Lunes</em></th>
+            <th><em>Martes</em></th>
+            <th><em>Miercoles</em></th>
+            <th><em>Jueves</em></th>
+            <th><em>Viernes</em></th>
+        </tr>
+        <tr>
+            <td>7:00 am</td>
+            <td rowspan="2"><strong> Libre</strong></td>
+            <td rowspan="2"><em>Álgebra L</em></td>
+            <td rowspan="2"><strong> Libre</strong></td>
+            <td rowspan="2"><em>Álgebra L</em></td>
+            <td rowspan="2"><strong> Libre</strong></td>
+            
+        </tr>
+        <tr>
+            <td>8:00 am</td>
+        </tr>
+        <tr>
+            <td>9:00 am</td>
+            <td rowspan="2"> <em>Teoria C</em></td>
+            <td rowspan="2"> <em>Cálculo</em> </td>
+            <td rowspan="2"> <em> Teoria C</em></td>
+            <td rowspan="2"> <em>Cálculo</em></td>
+            <td rowspan="2"> <strong> Libre</strong></td>
+        </tr>
+        <tr>
+            <td>10:00 am</td>
+        </tr>
+        <tr>
+            <td>11:00 am</td>
+            <td rowspan="2"> <strong> Libre</strong></td>
+            <td rowspan="2"> <em>Respirando</em></td>
+            <td rowspan="2"><em>Desarrollo W</em></td>
+            <td rowspan="2"><em>Escritura E</em></td>
+            <td rowspan="2"> <em> Desarrollo W</em></td>
+        
+        </tr>
+           <tr>
+            <td>12:00 am</td>
+        </tr>
+        <tr>
+            <td>1:00 pm</td>
+            <td rowspan="2"> <em> Catedra E</em></td>
+            <td rowspan="2"> <em> Álgebra L</em></td>
+            <td rowspan="2"> <strong> Libre</strong></td>
+            <td rowspan="4"> <strong> Libre</strong></td>
+            <td rowspan="2"> <em>Cálculo</em></td>   
+        </tr>
+        <tr>
+            <td>2:00 pm</td>
+        </tr>
+        <tr>
+            <td>3:00 pm</td>
+            <td rowspan="2"> <em> Probabilidad</em></td>
+            <td rowspan="2"> <strong> Libre</strong></td>
+            <td rowspan="2"> <em> Probabilidad</em></td>
+            <td rowspan="2"> <em> Probabilidad</em></td>
+            
+        </tr>
+        <tr>
+            <td>4:00 pm</td>
+            
+        </tr>
+        <tr>
+            <td>5:00 pm</td>
+        </tr>
+
+    </table>
+
+    <ol> 
+
+            <li></li>
+            <a href="../incio.html" target="_blank">inicio</a><li></li>
+            <a href="./TemaInteres.html" target="_blank">Tema de interes</a><br>
+            
+    </ol>  
+
+</body></html>
+    
