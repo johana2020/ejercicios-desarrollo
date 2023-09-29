@@ -1,0 +1,31 @@
+.p1{
+    color: rgb(201, 190, 36);
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.p2{
+    color: rgb(46, 15, 158);
+    text-decoration: line-through;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.p3{
+    color: rgb(182, 42, 42);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+h2{
+    color: bisque;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+}
+
+#mn{
+    color: rgb(32, 155, 192);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.homero{
+    font-style: italic;
+    text-decoration: underline;
+    color: blue;
+}

@@ -4,15 +4,14 @@ h1{
     color: whitesmoke;
 }
 
-body{
-    background-color: rgb(45, 159, 130);
-}
+
 
 .caja {
-    border: 2px dashed yellowgreen; 
+    border: 4px dashed yellowgreen; 
     padding: 20px; 
     margin: 50px; 
     border-width: 3px;
+    background-color: rgb(45, 159, 130);
 }
 
 .contenedor {
