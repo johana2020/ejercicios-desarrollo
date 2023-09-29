@@ -1,0 +1,42 @@
+/* Hoja de estilos para la página de la biografía de Esopo */
+
+h1{
+    color: whitesmoke;
+}
+
+
+
+.caja {
+    border: 4px dashed yellowgreen; 
+    padding: 20px; 
+    margin: 50px; 
+    border-width: 3px;
+    background-color: rgb(45, 159, 130);
+}
+
+.contenedor {
+    display: flex;
+    align-items: center;
+}
+
+.contenedor img {
+    max-width: 100%;
+    width: 200px; 
+    margin-right: 20px; 
+    width: 100px;
+}
+
+
+.contenedor .texto {
+    flex: 1;
+    color: aliceblue;
+}
+
+.contenedor .texto p {
+    margin: 0; 
+}
+
+.homero{
+    color: yellow;
+    text-decoration: underline;
+}

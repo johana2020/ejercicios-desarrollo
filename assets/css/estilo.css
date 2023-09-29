@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    width: auto;
+    height: 0;
+}
+/* para que nos resetee y se vea igual en cualquier navegador */
+
+body { background-image: url("../img/fondo.jpg");
+    background-repeat:no-repeat ;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style:italic;
+    font-size: 200%;
+    text-align: center;
+    background-color: #FC9804;
+    text-transform: uppercase; 
+    /* tranformar a el tipo que quiero may, min */
+    
+}
+/* body { background-color: #038AD3; }
+h1 { background-color: #FC9804; } */
+h2 {
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
